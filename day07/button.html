@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼 태그</title>
+</head>
+<body>
+    <form>
+        <p>
+            <button type="button" onclick="alert ('안녕하세요 button입니다')">확인</button>
+            <input type="button" onclick="alert ('안녕하세요 input입니다')" value="확인"></button>
+        </p>
+        <p>
+            <button type="button" onclick="window.open()">새탭 열기</button>
+        </p>
+        <p>
+            <button type="button" onclick="window.open('http://www.naver.com')">네이버 열기</button>
+        </p>
+        <!-- button 태그는 onclick 속성과 자바스크립트 사용 -->
+        <p>
+            <button type="button"
+                onclick="window.open('http://www.naver.com', '', 'width=300, height=400, top=100, left=200')">네이버 조절</button>
+        </p>
+    </form>
+</body>
+</html>
