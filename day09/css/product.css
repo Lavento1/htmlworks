@@ -25,7 +25,7 @@ h1{
     padding-left: 10px;
 }
 .prod-list img{
-    /* float: left; */
+    float: left;
 }
 /* 약간의 차이를 없앰 */
 .prod-list .caption{
