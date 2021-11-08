@@ -15,14 +15,17 @@
             top: 200px;
             left: 200px;
 
-            transition-property: width;
+            /* transition-property: width; */
             /* 속성-너비,ㅡ 높이 */
-            transition-duration: 2s;
+            /* transition-duration: 2s; */
             /* 지속시간 - 2초, 1초 */
 
-            transition: width, height, transform, 1s, 2s, 2s;
-            /* transition: all 2s; */
+            /* transition: width, height, transform, 1s, 2s, 2s; */
+            transition: all 2s ease-in-out;
             /* 모든 속성에 동일한 시간 설정 - all 사용 */
+            /* ease-in : 천천히 시작 */
+            /* ease-out : 천천히 끝남 */
+            /* ease-in-out : 천천히 시작하고 천천히 끝남 */
         }
         .tr1:hover{
             width: 200px;
